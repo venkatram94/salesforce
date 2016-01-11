@@ -1,6 +1,6 @@
 public class project1 {
 public static List<Account> method1(){
-	List<account> mylist=[select name,BillingAddress from account];
+	List<account> mylist=[select name from account];
 	for(account acc:mylist)
 		system.debug(acc.name);
 	
