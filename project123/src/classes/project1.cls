@@ -2,7 +2,7 @@ public class project1 {
 public static List<Account> method1(){
 	List<account> mylist=[select name from account];
 	for(account acc:mylist)
-		system.debug(acc.name);
+		system.debug('account name'+acc.name);
 	
 	
 	return mylist;
